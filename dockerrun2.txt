@@ -1,0 +1,2 @@
+docker run -it --name "capsnet" -v /home/miura/workdir:/workdir -w /workdir -p 8888:8888 tensorflow/tensorflow:latest-py3 bash
+pause
