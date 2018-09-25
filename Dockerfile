@@ -13,10 +13,12 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8 
 
 # Development Environment
-RUN apt -y install git python3 python3-pip
-RUN pip3 install numpy pandas matplotlib Pillow tqdm tensorflow Keras
+RUN apt -y install vim git python3 python3-pip
+RUN pip3 install numpy pandas matplotlib Pillow tqdm tensorflow Keras jupyterlab
 
 WORKDIR /workdir
+
+#EXPOSE 8888
 
 CMD echo "Now running!"
 CMD bash

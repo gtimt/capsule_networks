@@ -1,1 +1,1 @@
-docker run -it --name "capsnet" -v c:/Users/Tatsuki/projects/capsule_networks:/workdir -w /workdir -p 8888:8888 my/ubuntu
+docker run -it --name "ubuntu" -v c:/Users/Tatsuki/projects/capsule_networks:/workdir -w /workdir -p 8888:8888 t333ura/ubuntu:latest
